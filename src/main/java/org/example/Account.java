@@ -16,4 +16,10 @@ public String details (){
       String details= "name:" + name + "\nsurname:" + surname + "\naccountNumber:" + accountNumber + "\nbalance:" + balance;
       return details;
 }
+public void deposit(int deposit){
+       this.balance= balance + deposit;
+}
+public float getBalance(){
+       return balance;
+};
 }
